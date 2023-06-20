@@ -59,4 +59,5 @@ const productReducer = (state = initialState, action) => {
    }
 };
 
+// export products reducer functions
 export default productReducer;
