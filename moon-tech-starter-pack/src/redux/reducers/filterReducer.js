@@ -9,7 +9,8 @@ const initialState = {
 };
 
 export const filterReducer = (state = initialState, action) => {
-   console.log(action.payload);
+   // console.log(action.payload); // available actions
+
    switch (action.type) {
       case TOGGLE_BRAND:
          if (state.filters.brand.includes(action.payload)) {
