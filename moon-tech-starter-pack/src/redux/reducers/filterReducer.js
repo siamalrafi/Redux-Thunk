@@ -3,7 +3,7 @@ import { TOGGLE_BRAND, TOGGLE_STOCK } from "../actionTypes/actionTypes";
 const initialState = {
    filters: {
       brand: [],
-      stack: false,
+      stock: false,
    },
    keyword: "",
 };
