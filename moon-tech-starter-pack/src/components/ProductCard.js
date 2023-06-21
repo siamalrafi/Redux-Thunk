@@ -8,6 +8,7 @@ import { addToCart, removeFromCart } from "../redux/actions/productAction";
 const ProductCard = ({ product }) => {
    const dispatch = useDispatch();
    const { pathname } = useLocation();
+
    return (
       <div className="shadow-lg relative rounded-3xl border p-3 flex flex-col text-indigo-900">
          {pathname.includes("cart") && (
