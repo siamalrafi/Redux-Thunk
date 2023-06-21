@@ -7,5 +7,4 @@ const rootReducer = combineReducers({
    filter: filterReducer,
 });
 
-// export rootReducer reducer
 export default rootReducer;
