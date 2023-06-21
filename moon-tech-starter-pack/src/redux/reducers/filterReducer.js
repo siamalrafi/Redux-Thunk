@@ -39,7 +39,7 @@ export const filterReducer = (state = initialState, action) => {
             },
          };
       default:
-      // break;
+         break;
    }
    return state;
 };
